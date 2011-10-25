@@ -74,16 +74,7 @@ class Grafo
 		self.menor_peso u,v,p
 	end
 	
-	def visualiza
-		@vertices.each_index do |i|
-			@matriz_adj[i].each_index do |j|
-				puts i.to_s << " " << j.to_s
-				puts @matriz_adj[i][j]
-			end
-		end
-	end
-	
-#Implementacao solucao	do problema
+#Implementacao solucao do problema
 
 	def condicao_inicial p
 		if @count == @count_ant
@@ -143,5 +134,3 @@ class Grafo
 end
 
 grafo = Grafo.new
-
-#grafo.visualiza
