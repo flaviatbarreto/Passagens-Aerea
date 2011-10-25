@@ -94,7 +94,6 @@ class Grafo
 			@menor_peso = p
 			@count += 1
 			@vertices_menor_peso = []
-			puts @count
 		end
 	end
 	
@@ -127,12 +126,6 @@ class Grafo
 		@vertices.size.times do |i|
 			@matriz_adj[i].size.times do |j|
 				if @matriz_adj[i][j] != nil
-					if @count == 1
-						@menor_peso = @matriz_adj[i][j]
-						@count += 1
-						@vertices_menor_peso = []
-					end
-					
 					self.condicao_inicial @matriz_adj[i][j]
 					self.menor_peso i, j, @matriz_adj[i][j]	
 				end	
