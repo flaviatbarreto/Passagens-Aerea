@@ -70,11 +70,7 @@ class Grafo
 		v = @vertices.index(v)
 		@matriz_adj[u][v] = p
 
-		#self.condicao_inicial p
-		if @count == 0
-			@menor_peso = p
-			@count += 1
-		end
+		self.condicao_inicial p
 		self.menor_peso u,v,p
 	end
 	
