@@ -1,0 +1,6 @@
+5 5
+Goias Minas 100
+Minas SaoPaulo 200
+Goias SaoPaulo 300
+Goias Cuiaba 100
+SaoFan SaoPaulo 400

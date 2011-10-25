@@ -1,0 +1,6 @@
+5 5
+Brasil Mexico 5
+Japao Mexico 5
+Canada Mexico 5
+Eua Mexico 10
+Canada Eua 5
